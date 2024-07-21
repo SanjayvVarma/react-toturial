@@ -8,10 +8,16 @@ let Counter = () => {
         // counter += 1
         // console.log(counter);
 
-        setCounter(counter += 1);
-        if (counter > 21) {
-            setCounter(0)
-        }
+        // setCounter(counter += 1);
+        // if (counter > 21) {
+        //     setCounter(0)
+        // }
+
+        setCounter((preCounter)=> preCounter+1)
+        setCounter((preCounter)=> preCounter+1)
+        setCounter((preCounter)=> preCounter+1)
+        setCounter((preCounter)=> preCounter+1)
+        setCounter((preCounter)=> preCounter+1)
     }
 
     let remove = () => {

@@ -1,5 +1,6 @@
 import './App.css'
-import CurrancyConvertor from './projects/currencyConvertor';
+import ReactRouter from './projects/reactRouterDom';
+// import CurrancyConvertor from './projects/currencyConvertor';
 // import BgChanger from './projects/bgChanger/BgChanger';
 // import PassGenerator from './projects/passwordGenerator/PassGenerator';
 // import Counter from './projects/counter/Counter';
@@ -14,7 +15,8 @@ function App() {
       {/* <Props /> */}
       {/* <BgChanger /> */}
       {/* <PassGenerator/> */}
-      <CurrancyConvertor />
+      {/* <CurrancyConvertor /> */}
+      <ReactRouter />
       {/* <ReduxToolkitTodo /> */}
     </>
   )

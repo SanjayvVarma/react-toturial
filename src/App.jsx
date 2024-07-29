@@ -1,5 +1,6 @@
 import './App.css'
-import ContextApi from './projects/contextApi';
+import ThemeSwitcher from './projects/themeWithContextApi';
+// import ContextApi from './projects/contextApi';
 // import ReactRouter from './projects/reactRouterDom';
 // import CurrancyConvertor from './projects/currencyConvertor';
 // import BgChanger from './projects/bgChanger/BgChanger';
@@ -18,7 +19,8 @@ function App() {
       {/* <PassGenerator/> */}
       {/* <CurrancyConvertor /> */}
       {/* <ReactRouter /> */}
-      <ContextApi />
+      {/* <ContextApi /> */}
+      <ThemeSwitcher />
       {/* <ReduxToolkitTodo /> */}
     </>
   )

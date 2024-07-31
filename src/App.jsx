@@ -1,5 +1,6 @@
 import './App.css'
-import ThemeSwitcher from './projects/themeWithContextApi';
+import TodoLocal from './projects/todoContextLocal';
+// import ThemeSwitcher from './projects/themeWithContextApi';
 // import ContextApi from './projects/contextApi';
 // import ReactRouter from './projects/reactRouterDom';
 // import CurrancyConvertor from './projects/currencyConvertor';
@@ -20,7 +21,8 @@ function App() {
       {/* <CurrancyConvertor /> */}
       {/* <ReactRouter /> */}
       {/* <ContextApi /> */}
-      <ThemeSwitcher />
+      {/* <ThemeSwitcher /> */}
+      <TodoLocal />
       {/* <ReduxToolkitTodo /> */}
     </>
   )

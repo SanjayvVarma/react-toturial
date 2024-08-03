@@ -1,5 +1,6 @@
 import './App.css'
-import TodoLocal from './projects/todoContextLocal';
+import InterviewQ from './projects/interviewQ';
+// import TodoLocal from './projects/todoContextLocal';
 // import ThemeSwitcher from './projects/themeWithContextApi';
 // import ContextApi from './projects/contextApi';
 // import ReactRouter from './projects/reactRouterDom';
@@ -22,8 +23,9 @@ function App() {
       {/* <ReactRouter /> */}
       {/* <ContextApi /> */}
       {/* <ThemeSwitcher /> */}
-      <TodoLocal />
+      {/* <TodoLocal /> */}
       {/* <ReduxToolkitTodo /> */}
+      <InterviewQ />
     </>
   )
 }

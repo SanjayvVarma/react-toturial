@@ -1,5 +1,6 @@
 import './App.css'
-import CountdownTimer from './projects/countDownTimer';
+import Faq from './projects/faq';
+// import CountdownTimer from './projects/countDownTimer';
 // import InterviewQ from './projects/interviewQ';
 // import TodoLocal from './projects/todoContextLocal';
 // import ThemeSwitcher from './projects/themeWithContextApi';
@@ -27,7 +28,8 @@ function App() {
       {/* <TodoLocal /> */}
       {/* <ReduxToolkitTodo /> */}
       {/* <InterviewQ /> */}
-      <CountdownTimer />
+      {/* <CountdownTimer /> */}
+      <Faq />
     </>
   )
 }

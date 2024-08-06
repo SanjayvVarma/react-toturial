@@ -1,5 +1,6 @@
 import './App.css'
-import Faq from './projects/faq';
+import MortgageCalculator from './projects/mortgageCalculator';
+// import Faq from './projects/faq';
 // import CountdownTimer from './projects/countDownTimer';
 // import InterviewQ from './projects/interviewQ';
 // import TodoLocal from './projects/todoContextLocal';
@@ -29,7 +30,8 @@ function App() {
       {/* <ReduxToolkitTodo /> */}
       {/* <InterviewQ /> */}
       {/* <CountdownTimer /> */}
-      <Faq />
+      {/* <Faq /> */}
+      <MortgageCalculator/>
     </>
   )
 }

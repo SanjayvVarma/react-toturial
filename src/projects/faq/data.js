@@ -15,7 +15,6 @@ const data = [
         question: "How long do cats live",
         answer: "Outdoor cats live 5 years on average. Indoor\ncats live 15 years on average.",
     },
-   
 ]
 
 export default data;

@@ -1,5 +1,6 @@
 import './App.css'
-import MortgageCalculator from './projects/mortgageCalculator';
+import ModelOverlay from './projects/customModelOverlay';
+// import MortgageCalculator from './projects/mortgageCalculator';
 // import Faq from './projects/faq';
 // import CountdownTimer from './projects/countDownTimer';
 // import InterviewQ from './projects/interviewQ';
@@ -31,7 +32,8 @@ function App() {
       {/* <InterviewQ /> */}
       {/* <CountdownTimer /> */}
       {/* <Faq /> */}
-      <MortgageCalculator/>
+      {/* <MortgageCalculator/> */}
+      <ModelOverlay />
     </>
   )
 }

@@ -1,5 +1,6 @@
 import './App.css'
-import ShoppingList from './projects/shoppingListAuto';
+import MultiStepForm from './projects/multiStepForm';
+// import ShoppingList from './projects/shoppingListAuto';
 // import UndoableCounter from './projects/undoableCounter';
 // import ModelOverlay from './projects/customModelOverlay';
 // import MortgageCalculator from './projects/mortgageCalculator';
@@ -37,7 +38,8 @@ function App() {
       {/* <MortgageCalculator/> */}
       {/* <ModelOverlay /> */}
       {/* <UndoableCounter /> */}
-      <ShoppingList />
+      {/* <ShoppingList /> */}
+      <MultiStepForm />
     </>
   )
 }

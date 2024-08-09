@@ -1,5 +1,6 @@
 import './App.css'
-import UndoableCounter from './projects/undoableCounter';
+import ShoppingList from './projects/shoppingListAuto';
+// import UndoableCounter from './projects/undoableCounter';
 // import ModelOverlay from './projects/customModelOverlay';
 // import MortgageCalculator from './projects/mortgageCalculator';
 // import Faq from './projects/faq';
@@ -35,7 +36,8 @@ function App() {
       {/* <Faq /> */}
       {/* <MortgageCalculator/> */}
       {/* <ModelOverlay /> */}
-      <UndoableCounter />
+      {/* <UndoableCounter /> */}
+      <ShoppingList />
     </>
   )
 }

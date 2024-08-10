@@ -1,5 +1,6 @@
 import './App.css'
-import InfiniteScroll from './projects/infinitelyScrollingTiles';
+import ImageCarousel from './projects/imageCarousel';
+// import InfiniteScroll from './projects/infinitelyScrollingTiles';
 // import MultiStepForm from './projects/multiStepForm';
 // import ShoppingList from './projects/shoppingListAuto';
 // import UndoableCounter from './projects/undoableCounter';
@@ -41,7 +42,8 @@ function App() {
       {/* <UndoableCounter /> */}
       {/* <ShoppingList /> */}
       {/* <MultiStepForm /> */}
-      <InfiniteScroll />
+      {/* <InfiniteScroll /> */}
+      <ImageCarousel />
     </>
   )
 }

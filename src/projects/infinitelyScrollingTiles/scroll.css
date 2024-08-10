@@ -1,0 +1,48 @@
+.scrolling-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .scrolling-row {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    height: 120px; /* Adjust based on image size */
+    border: 1px solid #ddd;
+  }
+  
+  .scrolling-row::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrolling-image {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    transition: opacity 0.3s;
+  }
+  
+  .scroll-slow {
+    transition: transform 1s linear;
+  }
+  
+  .row3 {
+    height: 400px; /* Adjust height to show one image */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #f4f4f4;
+  }
+  
+  .single-image {
+    width: 100%; /* Adjust based on image size */
+    height: auto;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+  }
+  

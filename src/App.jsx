@@ -1,5 +1,6 @@
 import './App.css'
-import MultiStepForm from './projects/multiStepForm';
+import InfiniteScroll from './projects/infinitelyScrollingTiles';
+// import MultiStepForm from './projects/multiStepForm';
 // import ShoppingList from './projects/shoppingListAuto';
 // import UndoableCounter from './projects/undoableCounter';
 // import ModelOverlay from './projects/customModelOverlay';
@@ -39,7 +40,8 @@ function App() {
       {/* <ModelOverlay /> */}
       {/* <UndoableCounter /> */}
       {/* <ShoppingList /> */}
-      <MultiStepForm />
+      {/* <MultiStepForm /> */}
+      <InfiniteScroll />
     </>
   )
 }

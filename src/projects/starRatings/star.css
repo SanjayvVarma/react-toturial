@@ -1,0 +1,23 @@
+.container {
+   text-align: center;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.star {
+    margin: 10px;
+    font-size: 70px;
+}
+
+.on {
+    color: gold
+}
+
+.off {
+    color: #ccc;
+}

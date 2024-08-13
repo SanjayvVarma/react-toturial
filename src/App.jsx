@@ -1,5 +1,6 @@
 import './App.css'
-import Calculator from './projects/calculator';
+import StarRating from './projects/starRatings';
+// import Calculator from './projects/calculator';
 // import ImageCarousel from './projects/imageCarousel';
 // import TwoFactor from './projects/twoFactorCodeInput';
 // import InfiniteScroll from './projects/infinitelyScrollingTiles';
@@ -47,7 +48,8 @@ function App() {
       {/* <InfiniteScroll /> */}
       {/* <ImageCarousel /> */}
       {/* <TwoFactor /> */}
-      <Calculator />
+      {/* <Calculator /> */}
+      <StarRating />
     </>
   )
 }

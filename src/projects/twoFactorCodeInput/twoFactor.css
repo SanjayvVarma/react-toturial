@@ -1,0 +1,28 @@
+input {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+input:focus {
+    outline-color: blue;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    color: aliceblue;
+    background-color: purple;
+    border-radius: 5px;
+}
+
+.errors{
+    border: 2px solid red;
+}

@@ -1,0 +1,31 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 50vh;
+    height: 50vh;
+    grid-gap: 20px;
+}
+
+.btn{
+    background-color: lightseagreen;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+input{
+    width: 97%;
+    height: 30px;
+}

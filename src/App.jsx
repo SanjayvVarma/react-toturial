@@ -1,5 +1,7 @@
 import './App.css'
-import ImageCarousel from './projects/imageCarousel';
+import Calculator from './projects/calculator';
+// import ImageCarousel from './projects/imageCarousel';
+// import TwoFactor from './projects/twoFactorCodeInput';
 // import InfiniteScroll from './projects/infinitelyScrollingTiles';
 // import MultiStepForm from './projects/multiStepForm';
 // import ShoppingList from './projects/shoppingListAuto';
@@ -43,7 +45,9 @@ function App() {
       {/* <ShoppingList /> */}
       {/* <MultiStepForm /> */}
       {/* <InfiniteScroll /> */}
-      <ImageCarousel />
+      {/* <ImageCarousel /> */}
+      {/* <TwoFactor /> */}
+      <Calculator />
     </>
   )
 }

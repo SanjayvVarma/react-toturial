@@ -1,4 +1,5 @@
 import './App.css'
+import RatingComments from './projects/ratingComments';
 import StarRating from './projects/starRatings';
 // import Calculator from './projects/calculator';
 // import ImageCarousel from './projects/imageCarousel';
@@ -49,7 +50,8 @@ function App() {
       {/* <ImageCarousel /> */}
       {/* <TwoFactor /> */}
       {/* <Calculator /> */}
-      <StarRating />
+      {/* <StarRating /> */}
+      <RatingComments />
     </>
   )
 }

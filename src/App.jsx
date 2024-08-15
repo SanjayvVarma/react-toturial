@@ -1,6 +1,7 @@
 import './App.css'
-import RatingComments from './projects/ratingComments';
-import StarRating from './projects/starRatings';
+import MemoryGame from './projects/memoryGame';
+// import RatingComments from './projects/ratingComments';
+// import StarRating from './projects/starRatings';
 // import Calculator from './projects/calculator';
 // import ImageCarousel from './projects/imageCarousel';
 // import TwoFactor from './projects/twoFactorCodeInput';
@@ -51,7 +52,8 @@ function App() {
       {/* <TwoFactor /> */}
       {/* <Calculator /> */}
       {/* <StarRating /> */}
-      <RatingComments />
+      {/* <RatingComments /> */}
+      <MemoryGame />
     </>
   )
 }

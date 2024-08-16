@@ -1,5 +1,7 @@
 import './App.css'
-import MemoryGame from './projects/memoryGame';
+import ProgressBar from './projects/progressBar';
+// import Barchart from './projects/dataFetchingAndVisualization';
+// import MemoryGame from './projects/memoryGame';
 // import RatingComments from './projects/ratingComments';
 // import StarRating from './projects/starRatings';
 // import Calculator from './projects/calculator';
@@ -53,7 +55,9 @@ function App() {
       {/* <Calculator /> */}
       {/* <StarRating /> */}
       {/* <RatingComments /> */}
-      <MemoryGame />
+      {/* <MemoryGame /> */}
+      {/* <Barchart/> */}
+      <ProgressBar/>
     </>
   )
 }

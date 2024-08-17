@@ -1,5 +1,6 @@
 import './App.css'
 import ProgressBar from './projects/progressBar';
+import VsCodeFolder from './projects/vsCodeFolderSt';
 // import Barchart from './projects/dataFetchingAndVisualization';
 // import MemoryGame from './projects/memoryGame';
 // import RatingComments from './projects/ratingComments';
@@ -57,7 +58,9 @@ function App() {
       {/* <RatingComments /> */}
       {/* <MemoryGame /> */}
       {/* <Barchart/> */}
-      <ProgressBar/>
+      {/* <ProgressBar/> */}
+      <VsCodeFolder />
+
     </>
   )
 }

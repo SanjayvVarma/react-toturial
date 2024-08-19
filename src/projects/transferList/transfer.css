@@ -1,0 +1,42 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container {
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.card {
+    border: 1px solid grey;
+    padding: 10px;
+    width: 200px;
+    height: 250px;
+}
+
+.item {
+    height: 30px;
+    background-color: aqua;
+    margin: 10px 0px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checked {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}

@@ -1,5 +1,6 @@
 import './App.css'
-import CustomHook from './projects/customHook';
+import CustomTabs from './projects/customTabs';
+// import CustomHook from './projects/customHook';
 // import TransferList from './projects/transferList';
 // import ProgressBar from './projects/progressBar';
 // import VsCodeFolder from './projects/vsCodeFolderSt';
@@ -63,7 +64,8 @@ function App() {
       {/* <ProgressBar/> */}
       {/* <VsCodeFolder /> */}
       {/* <TransferList /> */}
-      <CustomHook />
+      {/* <CustomHook /> */}
+      <CustomTabs />
 
     </>
   )

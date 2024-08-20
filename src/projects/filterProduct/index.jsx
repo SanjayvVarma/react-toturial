@@ -7,6 +7,9 @@ const FilterProduct = () => {
     const [filteredData, setFilteredData] = useState(items);
     const [activeFilters, setActiveFilters] = useState([]);
 
+    console.log(filteredData);
+
+
     const handleFilterClick = (e) => {
         const category = e.target.id;
         const filterData = (prevFilters) => (
@@ -16,9 +19,12 @@ const FilterProduct = () => {
         setActiveFilters(filterData);
     };
 
+
+
     useEffect(() => {
         if (activeFilters.length) {
-            setFilteredData(items.filter((item) => activeFilters.includes(item.category)));
+            const filters = items.filter((item) => activeFilters.includes(item.category))
+            setFilteredData(filters);
         } else {
             setFilteredData(items);
         }

@@ -1,0 +1,41 @@
+.container{
+    text-align: center;
+  }
+  .product-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .item{
+    width: 100px;
+    height: 100px;
+    border: 0.7px solid lightgray;
+    margin: 10px;
+    cursor: pointer;
+    background-color: lightgreen;
+  }
+  .category{
+    font-size: 10px;
+    font-style: italic;
+  }
+  .filters{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button{
+    margin: 10px;
+    padding: 7px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: lightgreen;
+  }
+  
+  .selected{
+    background-color: darkgreen;
+    color: white;
+  }

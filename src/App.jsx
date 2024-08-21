@@ -1,5 +1,6 @@
 import './App.css'
-import FilterProduct from './projects/filterProduct';
+import Accordion from './projects/accordion';
+// import FilterProduct from './projects/filterProduct';
 // import CustomTabs from './projects/customTabs';
 // import CustomHook from './projects/customHook';
 // import TransferList from './projects/transferList';
@@ -10,7 +11,7 @@ import FilterProduct from './projects/filterProduct';
 // import RatingComments from './projects/ratingComments';
 // import StarRating from './projects/starRatings';
 // import Calculator from './projects/calculator';
-import ImageCarousel from './projects/imageCarousel';
+// import ImageCarousel from './projects/imageCarousel';
 // import TwoFactor from './projects/twoFactorCodeInput';
 // import InfiniteScroll from './projects/infinitelyScrollingTiles';
 // import MultiStepForm from './projects/multiStepForm';
@@ -55,7 +56,7 @@ function App() {
       {/* <ShoppingList /> */}
       {/* <MultiStepForm /> */}
       {/* <InfiniteScroll /> */}
-      <ImageCarousel />
+      {/* <ImageCarousel /> */}
       {/* <TwoFactor /> */}
       {/* <Calculator /> */}
       {/* <StarRating /> */}
@@ -68,6 +69,7 @@ function App() {
       {/* <CustomHook /> */}
       {/* <CustomTabs /> */}
       {/* <FilterProduct /> */}
+      <Accordion/>
     </>
   )
 }

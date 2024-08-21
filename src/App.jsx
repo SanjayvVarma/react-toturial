@@ -1,5 +1,6 @@
 import './App.css'
-import CustomTabs from './projects/customTabs';
+import FilterProduct from './projects/filterProduct';
+// import CustomTabs from './projects/customTabs';
 // import CustomHook from './projects/customHook';
 // import TransferList from './projects/transferList';
 // import ProgressBar from './projects/progressBar';
@@ -9,7 +10,7 @@ import CustomTabs from './projects/customTabs';
 // import RatingComments from './projects/ratingComments';
 // import StarRating from './projects/starRatings';
 // import Calculator from './projects/calculator';
-// import ImageCarousel from './projects/imageCarousel';
+import ImageCarousel from './projects/imageCarousel';
 // import TwoFactor from './projects/twoFactorCodeInput';
 // import InfiniteScroll from './projects/infinitelyScrollingTiles';
 // import MultiStepForm from './projects/multiStepForm';
@@ -54,7 +55,7 @@ function App() {
       {/* <ShoppingList /> */}
       {/* <MultiStepForm /> */}
       {/* <InfiniteScroll /> */}
-      {/* <ImageCarousel /> */}
+      <ImageCarousel />
       {/* <TwoFactor /> */}
       {/* <Calculator /> */}
       {/* <StarRating /> */}
@@ -65,8 +66,8 @@ function App() {
       {/* <VsCodeFolder /> */}
       {/* <TransferList /> */}
       {/* <CustomHook /> */}
-      <CustomTabs />
-
+      {/* <CustomTabs /> */}
+      {/* <FilterProduct /> */}
     </>
   )
 }

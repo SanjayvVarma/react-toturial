@@ -1,5 +1,6 @@
 import './App.css'
-import Accordion from './projects/accordion';
+import JobBoard from './projects/jobBoard';
+// import Accordion from './projects/accordion';
 // import FilterProduct from './projects/filterProduct';
 // import CustomTabs from './projects/customTabs';
 // import CustomHook from './projects/customHook';
@@ -69,7 +70,8 @@ function App() {
       {/* <CustomHook /> */}
       {/* <CustomTabs /> */}
       {/* <FilterProduct /> */}
-      <Accordion/>
+      {/* <Accordion/> */}
+      <JobBoard />
     </>
   )
 }

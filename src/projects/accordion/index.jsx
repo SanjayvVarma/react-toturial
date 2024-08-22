@@ -4,7 +4,7 @@ import { useState } from "react";
 import './accordion.css'
 
 const Accordion = ()=>{
-  const [multiple, setMultiple] = useState(true);
+  const [multiple, setMultiple] = useState(false);
   const [openAccordionId, setOpenAccordionId] = useState(null);
 
   const setIdOfOpenAccordion = (id) => {

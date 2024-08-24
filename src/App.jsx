@@ -1,5 +1,6 @@
 import './App.css'
-import JobBoard from './projects/jobBoard';
+import CryptoConvert from './projects/cryptoConvertApp';
+// import JobBoard from './projects/jobBoard';
 // import Accordion from './projects/accordion';
 // import FilterProduct from './projects/filterProduct';
 // import CustomTabs from './projects/customTabs';
@@ -71,7 +72,8 @@ function App() {
       {/* <CustomTabs /> */}
       {/* <FilterProduct /> */}
       {/* <Accordion/> */}
-      <JobBoard />
+      {/* <JobBoard /> */}
+      <CryptoConvert />
     </>
   )
 }

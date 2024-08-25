@@ -1,5 +1,6 @@
 import './App.css'
-import CryptoConvert from './projects/cryptoConvertApp';
+import RollingDice from './projects/rollingDice';
+// import CryptoConvert from './projects/cryptoConvertApp';
 // import JobBoard from './projects/jobBoard';
 // import Accordion from './projects/accordion';
 // import FilterProduct from './projects/filterProduct';
@@ -73,7 +74,8 @@ function App() {
       {/* <FilterProduct /> */}
       {/* <Accordion/> */}
       {/* <JobBoard /> */}
-      <CryptoConvert />
+      {/* <CryptoConvert /> */}
+      <RollingDice />
     </>
   )
 }

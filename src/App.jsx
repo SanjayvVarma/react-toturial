@@ -1,5 +1,6 @@
 import './App.css'
-import RollingDice from './projects/rollingDice';
+import TrafficLight from './projects/trafficLight';
+// import RollingDice from './projects/rollingDice';
 // import CryptoConvert from './projects/cryptoConvertApp';
 // import JobBoard from './projects/jobBoard';
 // import Accordion from './projects/accordion';
@@ -75,7 +76,8 @@ function App() {
       {/* <Accordion/> */}
       {/* <JobBoard /> */}
       {/* <CryptoConvert /> */}
-      <RollingDice />
+      {/* <RollingDice /> */}
+      <TrafficLight />
     </>
   )
 }

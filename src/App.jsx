@@ -1,5 +1,6 @@
 import './App.css'
-import TrafficLight from './projects/trafficLight';
+import TicTacToe from './projects/ticTacToe';
+// import TrafficLight from './projects/trafficLight';
 // import RollingDice from './projects/rollingDice';
 // import CryptoConvert from './projects/cryptoConvertApp';
 // import JobBoard from './projects/jobBoard';
@@ -77,7 +78,8 @@ function App() {
       {/* <JobBoard /> */}
       {/* <CryptoConvert /> */}
       {/* <RollingDice /> */}
-      <TrafficLight />
+      {/* <TrafficLight /> */}
+      <TicTacToe />
     </>
   )
 }

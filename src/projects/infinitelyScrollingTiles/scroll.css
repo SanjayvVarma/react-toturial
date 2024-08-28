@@ -1,48 +1,38 @@
-.scrolling-container {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
+.loader {
+  width: 60px;
+  height: 60px;
+  margin: 1rem auto;
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #3498db; /* Blue */
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
   }
-  
-  .scrolling-row {
-    display: flex;
-    overflow-x: auto;
-    white-space: nowrap;
-    scroll-behavior: smooth;
-    height: 120px; /* Adjust based on image size */
-    border: 1px solid #ddd;
+
+  100% {
+    transform: rotate(360deg);
   }
-  
-  .scrolling-row::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .scrolling-image {
-    width: 300px;
-    height: auto;
-    display: inline-block;
-    transition: opacity 0.3s;
-  }
-  
-  .scroll-slow {
-    transition: transform 1s linear;
-  }
-  
-  .row3 {
-    height: 400px; /* Adjust height to show one image */
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    background-color: #f4f4f4;
-  }
-  
-  .single-image {
-    width: 100%; /* Adjust based on image size */
-    height: auto;
-  }
-  
-  button {
-    margin-top: 10px;
-    padding: 10px;
-  }
-  
+}
+
+.book-title {
+  padding: 1.5rem;
+  margin: 1rem 15rem;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+.con-main{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0.5rem 0;
+  z-index: 1000;
+  text-align: center;
+  background-color: white;
+}

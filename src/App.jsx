@@ -1,5 +1,6 @@
 import './App.css'
-import TicTacToe from './projects/ticTacToe';
+import ImageGallery from './projects/imageGallery';
+// import TicTacToe from './projects/ticTacToe';
 // import TrafficLight from './projects/trafficLight';
 // import RollingDice from './projects/rollingDice';
 // import CryptoConvert from './projects/cryptoConvertApp';
@@ -79,7 +80,8 @@ function App() {
       {/* <CryptoConvert /> */}
       {/* <RollingDice /> */}
       {/* <TrafficLight /> */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+      <ImageGallery />
     </>
   )
 }

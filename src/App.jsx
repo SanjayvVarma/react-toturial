@@ -1,4 +1,5 @@
 import './App.css'
+import ChipsInput from './projects/chipsInput';
 // import ImageGallery from './projects/imageGallery';
 // import TicTacToe from './projects/ticTacToe';
 // import TrafficLight from './projects/trafficLight';
@@ -19,7 +20,7 @@ import './App.css'
 // import Calculator from './projects/calculator';
 // import ImageCarousel from './projects/imageCarousel';
 // import TwoFactor from './projects/twoFactorCodeInput';
-import InfiniteScroll from './projects/infinitelyScrollingTiles';
+// import InfiniteScroll from './projects/infinitelyScrollingTiles';
 // import MultiStepForm from './projects/multiStepForm';
 // import ShoppingList from './projects/shoppingListAuto';
 // import UndoableCounter from './projects/undoableCounter';
@@ -61,7 +62,7 @@ function App() {
       {/* <UndoableCounter /> */}
       {/* <ShoppingList /> */}
       {/* <MultiStepForm /> */}
-      <InfiniteScroll />
+      {/* <InfiniteScroll /> */}
       {/* <ImageCarousel /> */}
       {/* <TwoFactor /> */}
       {/* <Calculator /> */}
@@ -82,6 +83,7 @@ function App() {
       {/* <TrafficLight /> */}
       {/* <TicTacToe /> */}
       {/* <ImageGallery /> */}
+      <ChipsInput/>
     </>
   )
 }

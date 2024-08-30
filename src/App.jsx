@@ -1,5 +1,6 @@
 import './App.css'
-import ChipsInput from './projects/chipsInput';
+import StopWatch from './projects/stopWatch';
+// import ChipsInput from './projects/chipsInput';
 // import ImageGallery from './projects/imageGallery';
 // import TicTacToe from './projects/ticTacToe';
 // import TrafficLight from './projects/trafficLight';
@@ -83,7 +84,8 @@ function App() {
       {/* <TrafficLight /> */}
       {/* <TicTacToe /> */}
       {/* <ImageGallery /> */}
-      <ChipsInput/>
+      {/* <ChipsInput/> */}
+      <StopWatch />
     </>
   )
 }

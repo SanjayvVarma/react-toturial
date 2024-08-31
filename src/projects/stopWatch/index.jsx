@@ -4,18 +4,19 @@ import React, { useState, useEffect, useRef } from 'react';
 const StopWatch = () => {
     const [isActive, setIsActive] = useState(false);
     const [time, setTime] = useState(0);
-    const intervalRef = useRef(null);
+    // const intervalRef = useRef(null);
+    let tId;
 
     useEffect(() => {
         if (isActive) {
-            intervalRef.current = setInterval(() => {
+            tId = setInterval(() => {
                 setTime((prevTime) => prevTime + 10);
             }, 10);
         } else {
-            clearInterval(intervalRef.current);
+            clearInterval(tId);
         }
 
-        return () => clearInterval(intervalRef.current);
+        return () => clearInterval(tId);
     }, [isActive]);
 
     const handleStartStop = () => {

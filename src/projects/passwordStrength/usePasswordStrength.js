@@ -8,11 +8,6 @@ export const usePasswordStrength = () => {
     const hasLowerCase = /[a-z]/;
     const hasSpecial = /[^A-Za-z0-9]/;
 
-    const getPasswordStrength = (score) => {
-        if (score > 8) return 'Strong';
-        if (score > 5) return 'Medium';
-        return 'Weak';
-    };
 
     const getPasswordScore = (text) => {
         let score = 0;
@@ -25,6 +20,12 @@ export const usePasswordStrength = () => {
         }
 
         return score;
+    };
+
+    const getPasswordStrength = (score) => {
+        if (score > 8) return 'Strong';
+        if (score > 5) return 'Medium';
+        return 'Weak';
     };
 
     const handlePasswordChange = (e) => {

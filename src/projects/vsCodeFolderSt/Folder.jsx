@@ -13,7 +13,7 @@ const Folder = ({ files }) => {
             </div>
             {
                 files.isFolder && expand &&
-                files.children?.map((exp,i) => (
+                files.children?.map((exp, i) => (
                     <div key={i}>
                         <Folder files={exp} />
                     </div>

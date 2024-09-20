@@ -10,7 +10,6 @@ const ShoppingList = () => {
         await fetch(`https://api.frontendeval.com/fake/food/${search}`)
             .then((res) => res.json())
             .then((data) => setSuggList(data))
-
     }
 
     useEffect(() => {
@@ -28,7 +27,6 @@ const ShoppingList = () => {
         }
         setSearch('')
     }
-
 
     const handleR = (id) => {
         const newList = shopList.map((item) =>
@@ -48,14 +46,22 @@ const ShoppingList = () => {
         <div>
             <h1>My Shopping List</h1>
             <div>
-                <input placeholder='enter.....' type="text" onChange={(e) => setSearch(e.target.value)} value={search} />
+                <input
+                    placeholder='enter.....'
+                    type="text"
+                    value={search}
+                    onChange={(e) => setSearch(e.target.value)}
+                />
             </div>
             {
                 search.length >= 2 ? (
                     <div>
                         {
                             suggList.map((item) => (
-                                <div onClick={() => handleSuggList(item)} key={item}>
+                                <div
+                                    onClick={() => handleSuggList(item)}
+                                    key={item}
+                                >
                                     {item}
                                 </div>
                             ))
@@ -72,8 +78,14 @@ const ShoppingList = () => {
                         <div key={item.id}>
                             <button
                                 onClick={() => handleR(item.id)}
-                            >✓</button>
-                            <div className={item.isDone ? 'like' : ''}> {item.name}</div>
+                            >
+                                ✓
+                            </button>
+                            <div
+                                className={item.isDone ? 'like' : ''}
+                            >
+                                {item.name}
+                            </div>
                             <button onClick={() => handleRemove(item.id)}>X</button>
                         </div>
                     ))

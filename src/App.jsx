@@ -1,5 +1,11 @@
 import './App.css'
-import StopWatch from './projects/stopWatch';
+// import ColumnTable from './projects/columnTable';
+// import AdvanceCounter from './projects/advancedCounter';
+// import FileExplorer from './projects/fileExplorer';
+// import NestedComments from './projects/nestedComments';
+// import PasswordStrength from './projects/passwordStrength';
+// import Stepper from './projects/stepper';
+// import StopWatch from './projects/stopWatch';
 // import ChipsInput from './projects/chipsInput';
 // import ImageGallery from './projects/imageGallery';
 // import TicTacToe from './projects/ticTacToe';
@@ -85,7 +91,13 @@ function App() {
       {/* <TicTacToe /> */}
       {/* <ImageGallery /> */}
       {/* <ChipsInput/> */}
-      <StopWatch />
+      {/* <StopWatch /> */}
+      {/* <PasswordStrength/> */}
+      {/* <Stepper /> */}
+      {/* <NestedComments /> */}
+      {/* <FileExplorer /> */}
+      {/* <AdvanceCounter /> */}
+      {/* <ColumnTable /> */}
     </>
   )
 }

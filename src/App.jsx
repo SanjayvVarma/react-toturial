@@ -1,103 +1,103 @@
 import './App.css'
-// import ColumnTable from './projects/columnTable';
-// import AdvanceCounter from './projects/advancedCounter';
-// import FileExplorer from './projects/fileExplorer';
-// import NestedComments from './projects/nestedComments';
-// import PasswordStrength from './projects/passwordStrength';
+import Faq from './projects/faq';
+// import Props from './projects/props';
 // import Stepper from './projects/stepper';
-// import StopWatch from './projects/stopWatch';
-// import ChipsInput from './projects/chipsInput';
-// import ImageGallery from './projects/imageGallery';
-// import TicTacToe from './projects/ticTacToe';
-// import TrafficLight from './projects/trafficLight';
-// import RollingDice from './projects/rollingDice';
-// import CryptoConvert from './projects/cryptoConvertApp';
 // import JobBoard from './projects/jobBoard';
 // import Accordion from './projects/accordion';
-// import FilterProduct from './projects/filterProduct';
+// import TicTacToe from './projects/ticTacToe';
+// import StopWatch from './projects/stopWatch';
 // import CustomTabs from './projects/customTabs';
 // import CustomHook from './projects/customHook';
-// import TransferList from './projects/transferList';
-// import ProgressBar from './projects/progressBar';
-// import VsCodeFolder from './projects/vsCodeFolderSt';
-// import Barchart from './projects/dataFetchingAndVisualization';
 // import MemoryGame from './projects/memoryGame';
-// import RatingComments from './projects/ratingComments';
-// import StarRating from './projects/starRatings';
+// import ContextApi from './projects/contextApi';
+// import ChipsInput from './projects/chipsInput';
 // import Calculator from './projects/calculator';
+// import InterviewQ from './projects/interviewQ';
+// import StarRating from './projects/starRatings';
+// import RollingDice from './projects/rollingDice';
+// import ProgressBar from './projects/progressBar';
+// import ColumnTable from './projects/columnTable';
+// import Counter from './projects/counter/Counter';
+// import FileExplorer from './projects/fileExplorer';
+// import ImageGallery from './projects/imageGallery';
+// import TrafficLight from './projects/trafficLight';
+// import TransferList from './projects/transferList';
+// import TodoLocal from './projects/todoContextLocal';
+// import ReactRouter from './projects/reactRouterDom';
+// import VsCodeFolder from './projects/vsCodeFolderSt';
+// import MultiStepForm from './projects/multiStepForm';
+// import FilterProduct from './projects/filterProduct';
 // import ImageCarousel from './projects/imageCarousel';
 // import TwoFactor from './projects/twoFactorCodeInput';
-// import InfiniteScroll from './projects/infinitelyScrollingTiles';
-// import MultiStepForm from './projects/multiStepForm';
+// import NestedComments from './projects/nestedComments';
 // import ShoppingList from './projects/shoppingListAuto';
+// import RatingComments from './projects/ratingComments';
+// import CountdownTimer from './projects/countDownTimer';
+// import BgChanger from './projects/bgChanger/BgChanger';
+// import AdvanceCounter from './projects/advancedCounter';
+// import CryptoConvert from './projects/cryptoConvertApp';
 // import UndoableCounter from './projects/undoableCounter';
 // import ModelOverlay from './projects/customModelOverlay';
-// import MortgageCalculator from './projects/mortgageCalculator';
-// import Faq from './projects/faq';
-// import CountdownTimer from './projects/countDownTimer';
-// import InterviewQ from './projects/interviewQ';
-// import TodoLocal from './projects/todoContextLocal';
-// import ThemeSwitcher from './projects/themeWithContextApi';
-// import ContextApi from './projects/contextApi';
-// import ReactRouter from './projects/reactRouterDom';
-// import CurrancyConvertor from './projects/currencyConvertor';
-// import BgChanger from './projects/bgChanger/BgChanger';
-// import PassGenerator from './projects/passwordGenerator/PassGenerator';
-// import Counter from './projects/counter/Counter';
-// import Props from './projects/props';
+// import PasswordStrength from './projects/passwordStrength';
 // import ReduxToolkitTodo from './projects/reduxToolkitTodo';
+// import ThemeSwitcher from './projects/themeWithContextApi';
+// import CurrancyConvertor from './projects/currencyConvertor';
+// import Barchart from './projects/dataFetchingAndVisualization';
+// import MortgageCalculator from './projects/mortgageCalculator';
+// import InfiniteScroll from './projects/infinitelyScrollingTiles';
+// import PassGenerator from './projects/passwordGenerator/PassGenerator';
 
 function App() {
 
   return (
     <>
-      {/* <Counter /> */}
+      <Faq />
+      {/* <Stepper /> */}
       {/* <Props /> */}
-      {/* <BgChanger /> */}
-      {/* <PassGenerator/> */}
-      {/* <CurrancyConvertor /> */}
-      {/* <ReactRouter /> */}
-      {/* <ContextApi /> */}
-      {/* <ThemeSwitcher /> */}
-      {/* <TodoLocal /> */}
-      {/* <ReduxToolkitTodo /> */}
-      {/* <InterviewQ /> */}
-      {/* <CountdownTimer /> */}
-      {/* <Faq /> */}
-      {/* <MortgageCalculator/> */}
-      {/* <ModelOverlay /> */}
-      {/* <UndoableCounter /> */}
-      {/* <ShoppingList /> */}
-      {/* <MultiStepForm /> */}
-      {/* <InfiniteScroll /> */}
-      {/* <ImageCarousel /> */}
-      {/* <TwoFactor /> */}
-      {/* <Calculator /> */}
-      {/* <StarRating /> */}
-      {/* <RatingComments /> */}
-      {/* <MemoryGame /> */}
+      {/* <Counter /> */}
       {/* <Barchart/> */}
-      {/* <ProgressBar/> */}
-      {/* <VsCodeFolder /> */}
-      {/* <TransferList /> */}
-      {/* <CustomHook /> */}
-      {/* <CustomTabs /> */}
-      {/* <FilterProduct /> */}
       {/* <Accordion/> */}
       {/* <JobBoard /> */}
-      {/* <CryptoConvert /> */}
-      {/* <RollingDice /> */}
-      {/* <TrafficLight /> */}
+      {/* <TodoLocal /> */}
+      {/* <BgChanger /> */}
+      {/* <TwoFactor /> */}
       {/* <TicTacToe /> */}
-      {/* <ImageGallery /> */}
       {/* <ChipsInput/> */}
       {/* <StopWatch /> */}
-      {/* <PasswordStrength/> */}
-      {/* <Stepper /> */}
-      {/* <NestedComments /> */}
-      {/* <FileExplorer /> */}
-      {/* <AdvanceCounter /> */}
+      {/* <InterviewQ /> */}
+      {/* <Calculator /> */}
+      {/* <StarRating /> */}
+      {/* <ContextApi /> */}
+      {/* <MemoryGame /> */}
+      {/* <ProgressBar/> */}
+      {/* <CustomHook /> */}
+      {/* <CustomTabs /> */}
+      {/* <ReactRouter /> */}
       {/* <ColumnTable /> */}
+      {/* <RollingDice /> */}
+      {/* <PassGenerator/> */}
+      {/* <ImageGallery /> */}
+      {/* <ShoppingList /> */}
+      {/* <ModelOverlay /> */}
+      {/* <VsCodeFolder /> */}
+      {/* <TransferList /> */}
+      {/* <TrafficLight /> */}
+      {/* <FileExplorer /> */}
+      {/* <FilterProduct /> */}
+      {/* <ImageCarousel /> */}
+      {/* <ThemeSwitcher /> */}
+      {/* <MultiStepForm /> */}
+      {/* <CryptoConvert /> */}
+      {/* <RatingComments /> */}
+      {/* <InfiniteScroll /> */}
+      {/* <CountdownTimer /> */}
+      {/* <NestedComments /> */}
+      {/* <AdvanceCounter /> */}
+      {/* <UndoableCounter /> */}
+      {/* <PasswordStrength/> */}
+      {/* <ReduxToolkitTodo /> */}
+      {/* <CurrancyConvertor /> */}
+      {/* <MortgageCalculator/> */}
     </>
   )
 }

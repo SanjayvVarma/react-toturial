@@ -11,13 +11,16 @@ const Faq = () => {
     }
 
     return (
-        <div>
+        <div className='flex flex-col justify-center items-center text-center mt-5'>
+            <div className='text-2xl'>FAQ</div>
             {data.map((faq, idx) => (
                 <div key={idx}>
-                    <button className={` ${show === idx ? 'arrow' : ''}`} onClick={() => handleClick(idx)}>&gt;</button>
-                    <div>{faq.question}</div>
+                    <div className='flex gap-3 bg-blue-700 rounded text-white mt-4 px-3 py-1'>
+                        <button className={`bg-purple-900 rounded-full w-6 h-6 ${show === idx ? 'arrow' : ''}`} onClick={() => handleClick(idx)}>&gt;</button>
+                        <div>{faq.question}</div>
+                    </div>
                     <div>
-                        {show === idx && <div>{faq.answer}</div>}
+                        {show === idx && <div className=' bg-green-600 rounded text-white mt-0.5 px-5 py-1'>Ans :- {faq.answer}</div>}
                     </div>
                 </div>
             ))}

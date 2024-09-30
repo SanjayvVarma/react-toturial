@@ -33,7 +33,6 @@ const TrafficLight = () => {
     }, [activeLight, duration])
 
 
-
     return (
         <div className='flex flex-col items-center justify-center gap-2.5'>
             <h1 className='mb-7 text-2xl'>traffic Light</h1>

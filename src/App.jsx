@@ -1,5 +1,5 @@
 import './App.css'
-import Faq from './projects/faq';
+// import Faq from './projects/faq';
 // import Props from './projects/props';
 // import Stepper from './projects/stepper';
 // import JobBoard from './projects/jobBoard';
@@ -25,6 +25,7 @@ import Faq from './projects/faq';
 // import TodoLocal from './projects/todoContextLocal';
 // import ReactRouter from './projects/reactRouterDom';
 // import VsCodeFolder from './projects/vsCodeFolderSt';
+import DirectoryApp from './projects/skDirectoryApp';
 // import MultiStepForm from './projects/multiStepForm';
 // import FilterProduct from './projects/filterProduct';
 // import ImageCarousel from './projects/imageCarousel';
@@ -51,7 +52,7 @@ function App() {
 
   return (
     <>
-      <Faq />
+      {/* <Faq /> */}
       {/* <Stepper /> */}
       {/* <Props /> */}
       {/* <Counter /> */}
@@ -75,6 +76,7 @@ function App() {
       {/* <ReactRouter /> */}
       {/* <ColumnTable /> */}
       {/* <RollingDice /> */}
+      <DirectoryApp/>
       {/* <PassGenerator/> */}
       {/* <ImageGallery /> */}
       {/* <ShoppingList /> */}
